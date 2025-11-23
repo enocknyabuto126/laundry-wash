@@ -1,0 +1,93 @@
+
+.shopping-cart table {
+    text-align: center;
+    width: 100%;
+}
+
+.shopping-cart table thead th {
+    padding: 1rem;
+    font-size: 1rem;
+    color: var(--white);
+    background-color: var(--black);
+}
+
+.shopping-cart table tr td {
+    border-bottom: .1rem solid #999;
+    padding: 1rem;
+    font-size: 1rem;
+    color: var(--black);
+}
+
+.shopping-cart table input[type="number"] {
+    border: var(--border);
+    padding: 1rem 1rem;
+    font-size: 1rem;
+    color: var(--black);
+    width: 4rem;
+}
+
+.shopping-cart table input[type="submit"] {
+    padding: .5rem 1.5rem;
+    cursor: pointer;
+    font-size: 1rem;
+    color: white;
+    background-color: #ffc107;
+}
+
+.shopping-cart span {
+    padding: .1rem .5rem;
+    border-radius: .5rem;
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+}
+
+.shopping-cart table input[type="submit"]:hover {
+    background-color: var(--black);
+}
+
+.shopping-cart table .table-bottom {
+    background-color: var(--bg-color);
+}
+
+.shopping-cart .checkout-btn {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.simpleModal {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    color: #f4f4f4;
+    margin: 20% auto ;
+    padding: 2rem;
+    width: 100%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, .17);
+    display: flex;
+    align-items: center;
+}
+
+.closeBtn {
+    color: #ccc;
+    float: right;
+    font-size: 30px;
+
+}
+
+.closeBtn:hover,
+.closeBtn:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
